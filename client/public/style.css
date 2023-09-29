@@ -1,0 +1,128 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+    background-color: #f3f2f2;
+   
+  }
+  
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #00CED1;
+    padding: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  
+  header h1 {
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .post-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+    
+  }
+  
+  .post {
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 20px;
+    width: calc(30% - 20px); 
+    margin: 0 0 20px;
+    
+  }
+  
+  .post h3 {
+    
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  
+  .comment {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .comment p {
+    margin: 0;
+  }
+  
+  .comment-create {
+    margin-top: 20px;
+  }
+  
+  /* Button styles */
+  .btn {
+    background-color: #00CED1;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #009b9e;
+  }
+  
+  /* Form styles */
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: center;
+    background-color: #00CED1;
+    padding: 10px;
+    padding-top:12px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .post {
+      width: calc(50% - 20px); /* Adjust for smaller screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .post {
+      width: 100%; /* Full width on small screens */
+    }
+  }
+  
