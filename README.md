@@ -118,13 +118,13 @@ Before you begin, ensure you have the following installed:
    git clone [https://github.com/Chitra2409/Microservices-Project.git]
    cd <repository-directory>
 
-2.**Start the microservices**:In each microservice's directory, start the development server:
+ 2. **Start the microservices**: In each microservice's directory, start the development server:
+ npm start
+
+ 3. **Run the frontend**: In the clients directory, start the React application:
 npm start
 
-3.**Run the frontend**:In the clients directory, start the React application:
-npm start
-
-4.**Access the website**: Open your web browser and navigate to the URL where the frontend is running (usually http://localhost:3000).
+ 4. **Access the website**: Open your web browser and navigate to the URL where the frontend is running (usually http://localhost:3000).
 
 Now, your development environment is set up, and you can start working on the project!
 
