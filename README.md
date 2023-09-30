@@ -8,10 +8,9 @@ This is a microservices-based blog website application that allows users to crea
 - [Services](#services)
 - [What the Website Does](#what-the-website-does)
 - [Technology Stack](#technology-stack)
-- [Getting Started](#getting-started)
+- [Setting Up the Development Environment](#setting-up-the-development-environment)
   - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Usage](#usage)
+  - [Installation and Usage](#installation-and-usage)
 
 ## Folder Structure
 
@@ -97,13 +96,39 @@ The technology stack used in this application includes:
 - **Database** (not included in this example):
   - MongoDB
 
-## Getting Started
+## Setting Up the Development Environment
+
+Follow these steps to set up your development environment and get started with the project:
 
 ### Prerequisites
 
-- Node.js (for running the microservices)
-- npm or yarn (for package management)
-- Docker (optional, for containerization)
+Before you begin, ensure you have the following installed:
+
+1. **Node.js**: The JavaScript runtime for running the microservices. Download it from [Node.js website](https://nodejs.org/).
+
+2. **npm**: Package managers for installing project dependencies. npm is included with Node.js, or you can use yarn for faster package management.
+
+3. **Docker**: To containerize and deploy microservices easily. You can download Docker from [Docker website](https://www.docker.com/get-started).
+
+### Installation and usage
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone [https://github.com/Chitra2409/Microservices-Project.git]
+   cd <repository-directory>
+
+2.**Start the microservices**:In each microservice's directory, start the development server:
+npm start
+
+3.**Run the frontend**:In the clients directory, start the React application:
+npm start
+
+4.**Access the website**: Open your web browser and navigate to the URL where the frontend is running (usually http://localhost:3000).
+
+Now, your development environment is set up, and you can start working on the project!
+
+
 
 **Note** : This project is a work in progress and still many services are yet to be included
 
