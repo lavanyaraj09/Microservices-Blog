@@ -130,6 +130,6 @@ Now, your development environment is set up, and you can start working on the pr
 
 
 
-**Note** : This project is a work in progress and still many services are yet to be included
+**Note** : This project is a work in progress.
 
 
