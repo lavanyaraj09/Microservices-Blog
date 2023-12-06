@@ -31,3 +31,8 @@ spec:
     targetPort: 8080
   selector:
     app: client
+
+
+
+#this yaml is specifically for the client service(frontend)
+#yaml for all the other services can be created in the similar way
