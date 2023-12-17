@@ -130,6 +130,6 @@ Now, your development environment is set up, and you can start working on the pr
 
 
 
-**Note** : This project is a work in progress.
+**Note** : This project is almost completed.
 
 
