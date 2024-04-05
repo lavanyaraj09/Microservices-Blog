@@ -130,6 +130,4 @@ Now, your development environment is set up, and you can start working on the pr
 
 
 
-**Note** : This project is completed.
-
 
