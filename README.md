@@ -104,7 +104,7 @@ Follow these steps to set up your development environment and get started with t
 
 Before you begin, ensure you have the following installed:
 
-1. **Node.js**: The JavaScript runtime for running the microservices. Download it from [Node.js website](https://nodejs.org/).
+1. **Node.js**: The JavaScript runtime for running the microservice. Download it from [Node.js website](https://nodejs.org/).
 
 2. **npm**: Package managers for installing project dependencies. npm is included with Node.js, or you can use yarn for faster package management.
 
